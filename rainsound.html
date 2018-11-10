@@ -58,11 +58,11 @@ q{font-size: 30px}
 
 footer{position: bottom;text-align: center;padding-top: 100px}
 
-h3{color: white; font-size:10px; text text-align: center;}
+/*h3{color: white; font-size:10px; text text-align: center;}
+*/
 
 
-
-
+#headera{box-sizing:border-box; }
 
 </style>
 
@@ -80,10 +80,13 @@ h3{color: white; font-size:10px; text text-align: center;}
 <title>Rain sound</title>
 <body> 
 
-<div >
 
 
-<h1> RAIN SOUND </h1>
+<div id="headera">
+<h1 style="color:white";font-weight="bold";text-align="center"> RAIN SOUND </h1> </div>
+
+<div class="row">
+  <div class="col-sm-6 col-md-12 colon-lg-12">
 
 <audio src="quotes.mp3" autoplay loop>
   <bgsound src="quotes.mp3" loop="infinite"> </audio>
@@ -507,7 +510,7 @@ function showSlides(n) {
 
 </div>
 
-
+</div>
 
 
 
@@ -522,7 +525,7 @@ function showSlides(n) {
 <footer> 
 
 
- <h3> All Copyright reserved &copy NLM 2018</h3>
+ <h3 style="color:white";font-size="small";font-style="italic"text-align="center";> All Copyright reserved &copy NLM 2018</h3>
 
 </footer>
 </div>
