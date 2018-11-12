@@ -6,14 +6,14 @@
 
 body {background-image: url(waterfall.jpg);background-repeat: no-repeat;height: 100%}
 
-h1{ text-align: center; color:white; padding:50px;padding-top: 80px; letter-spacing: 1px; font-size: 90px;overflow: auto;}
+h1{ text-align: center; color:white; padding:50px;padding-top: 80px; letter-spacing: 1px; font-size: 90px}
 
 
 
 /* Slideshow container */
-.slideshow-container {overflow: auto;
+.slideshow-container {
   position: relative;
-  background: #f1f1f1f1; background-color: silver;opacity:0.5;margin-left: 40px; margin-right:40px;
+  background: #f1f1f1f1; background-color: silver;opacity:0.5;margin-left:10px; margin-right:10px;
 }
 
 /* Slides */
@@ -52,17 +52,24 @@ h1{ text-align: center; color:white; padding:50px;padding-top: 80px; letter-spac
 }
 
 
-#innerbox{ padding:60px; opacity:1;}
+#innerbox{ padding:5px; opacity:1;margin-left: 1px}
 
 q{font-size: 30px}
 
-footer{position: bottom;text-align: center;padding-top: 100px}
-
-/*h3{color: white; font-size:10px; text text-align: center;}
-*/
-
-
+footer{position: bottom;text-align: center;padding-top: 110px}
+/*  footer{text-align:center;padding-top:110px}
+ */
+/* h3{color: white; font-size:10px; text text-align: center;}
+ */
 #headera{box-sizing:border-box; }
+
+<link rel ="icon" type ="image/x-icon" href="favicon.ico">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 
 </style>
 
@@ -72,15 +79,9 @@ footer{position: bottom;text-align: center;padding-top: 100px}
 <link rel ="icon" type ="image/x-icon" href="favicon.ico">
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
-	</head>
+  </head>
 <title>Rain sound</title>
 <body> 
-
-
 
 <div id="headera">
 <h1 style="color:white";font-weight="bold";text-align="center"> RAIN SOUND </h1> </div>
@@ -218,13 +219,71 @@ The other is as though everything is a miracle.</q>
 </q>
     <p class="author">Jonathan Lockhood Huie </p>
   </div>
+    
+<div class="mySlides">
+    <q>“I can't give you a sure-fire formula for success, but I can give you a formula for failure: try to please everybody all the time.” </q>
+    <p class="author">Herbert Bayard Swope </p>
+  </div>
 
 <div class="mySlides">
+    <q>“Success is getting what you want, happiness is wanting what you get” </q>
+
+  <p class="author">W.P Kinsella </p>
+  </div>
+
+<div class="mySlides">
+    <q>“If A is a success in life, then A equals x plus y plus z. Work is x; y is play; and z is keeping your mouth shut” </q>
+
+  <p class="author">Albert Einstein</p>
+  </div>
+
+<div class="mySlides">
+    <q>“Sometimes it takes a good fall to really know where you stand” </q>
+
+  <p class="author"> Harley Williams</p>
+  </div>    
+    
+    
+<div class="mySlides">
+    <q> “Whatever the mind can conceive and believe, it can achieve.” </q>
+
+  <p class="author">Napoleon Hill</p>
+  </div>    
+    
+    
+    
+<div class="mySlides">
+    <q>“If you hang out with chickens, you're going to cluck and if you hang out with eagles, you're going to fly.”</q>
+
+  <p class="author">Steve Maraboli</p>
+  </div>    
+<div class="mySlides">
+    <q>“Rich people have small TVs and big libraries, and poor people have small libraries and big TVs.”</q>
+
+  <p class="author">Zig Ziglar</p>
+  </div>    
+    
+ <div class="mySlides">
+    <q>“Curious that we spend more time congratulating people who have succeeded than encouraging people who have not.” </q>
+
+  <p class="author">Neil Degrasse Tyson</p>
+  </div>    
+ <div class="mySlides">
+    <q>“To be successful you need friends and to be very successful you need enemies.”</q>
+
+  <p class="author">Sidney Sheldon</p>
+  </div>    
+    
+    
+    
+    
+    
+<!-- <div class="mySlides">
     <q>Life is not about waiting for the storms to pass... 
 It's about learning how to dance in the rain.
 </q>
     <p class="author">Vivian Greene </p>
-  </div>
+  </div> -->
 
 <div class="mySlides">
     <q>The secret to change is to focus all of your energy not on fighting the old, but on building the new.”</q>
@@ -510,7 +569,7 @@ function showSlides(n) {
 
 </div>
 
-</div>
+  </div>
 
 
 
@@ -525,7 +584,9 @@ function showSlides(n) {
 <footer> 
 
 
- <h3 style="color:white";font-size="small";font-style="italic"text-align="center";> All Copyright reserved &copy NLM 2018</h3>
+<!-- <h3 style="color:white";font-size="small";font-style="italic"text-align="center";> All Copyright reserved &copy NLM 2018</h3>
+ -->
+<h3 style="color:white";font-size="10px";font-style="italic"text-align="center";><small> <i> All Copyright reserved &copy NLM 2018 </i></small></h3>
 
 </footer>
 </div>
